@@ -1,6 +1,6 @@
 <div class="container">
     <input type="text" placeholder="Enter Book title" [(ngModel)]="title" required #titleInput="ngModel" name="titleInput">
-    <button [disabled]="titleInput.errors?.['required']">+ Add</button>
+    <button (click)="addBook()" [disabled]="titleInput.errors?.['required']">+ Add</button>
     <div *ngFor="let book of book$ | async as list; index as idx;">
         {{book.title}} <button (click)="deleteBook(book)">delete</button>
     </div>

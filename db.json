@@ -1,3 +1,16 @@
 {
-  "books": []
+  "books": [
+    {
+      "id": 1,
+      "title": "harry potter",
+      "author": "",
+      "cost": 0
+    },
+    {
+      "id": 2,
+      "title": "harry potter 2",
+      "author": "",
+      "cost": 0
+    }
+  ]
 }
