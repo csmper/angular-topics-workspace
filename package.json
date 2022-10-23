@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "json-run": "json-server --watch db.json",
-    "compodoc:state-management:build": "compodoc -p ./projects/state-management/tsconfig.doc.json",
+    "compodoc:state-management:build": "compodoc -p ./projects/state-management/tsconfig.doc.json -d ./projects//state-management/documentation/smuicodedoc.bitbucket.io",
     "compodoc:build-and-serve": "compodoc -p tsconfig.doc.json -s",
     "compodoc:serve": "compodoc -s"
   },
