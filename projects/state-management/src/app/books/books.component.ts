@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { select, Store } from '@ngrx/store';
-import { invokeBooksAPI, invokeDeleteBookAPI, invokeSaveBookAPI } from '../store/books/books.action';
+import { invokeBooksAPI, invokeDeleteBookAPI, invokeSaveBookAPI } from '../store/books/books.actions';
 import { IBook } from '../store/books/books.model';
 import { selectBooks } from '../store/books/books.selector';
 
